@@ -3,5 +3,5 @@ package at.kaindorf.htl.event.repository;
 import at.kaindorf.htl.event.entity.Rating;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface RatingRepository {
+public interface RatingRepository extends JpaRepository<Rating, Long> {
 }
